@@ -1,0 +1,27 @@
+
+.header 
+{
+    margin: 20px;
+    background-color: rgb(238, 172, 7);
+    width: 355px;
+    margin:0 auto;
+    border-radius: 20px;
+    text-align: center;
+    text-justify: auto;
+}
+
+div {
+    background-color: rgba(0, 238, 255, 0.729);
+    margin: 50px;
+    width: 350px;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.button 
+{
+
+}
