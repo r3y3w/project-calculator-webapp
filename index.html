@@ -4,52 +4,40 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css" >
+  <link rel="stylesheet" href="styles.css">
   <title>My JS Calculator</title>
 </head>
-
-<body class="calcbody">
-
-  <Header class="calcheader">My JS Calculator</Header>
-  
-  <table class="window" id="screen">
-
-  </table>
-  <table class="numbers1">
-    <tr class="numbers">
-      <td class="key-btn" onclick="sendNum('1')">1</td>
-      <td class="key-btn" onclick="sendNum('2')">2</td>
-      <td class="key-btn" onclick="sendNum('3')">3</td>
-    <tr class="numbers">
-      <td class="key-btn" onclick="sendNum('4')">4</td>
-      <td class="key-btn" onclick="sendNum('5')">5</td>
-      <td class="key-btn" onclick="sendNum('6')">6</td>
-    </tr> 
-      <td class="key-btn" onclick="sendNum('7')">7</td>
-      <td class="key-btn" onclick="sendNum('8')">8</td>
-      <td class="key-btn" onclick="sendNum('9')">9</td>
-  </table>  
-  <table class="numbers2">
-      <tr class="numbers-2"></tr>
-      <td class="key-btn2" onclick="sendNum('0')">0</td>
-      <td class="key-btn2" onclick="sendNum('.')">.</td>
-    </tr>
-  </table>
-    
-  <table class="numbers3">
-      <tr class="operation">
-        <td class="key-btn3" onclick="sendNum('+')">+</td>
-        <td class="key-btn3" onclick="sendNum('-')">-</td>
-        <td class="key-btn3" onclick="sendNum('/')">÷</td>
-        <td class="key-btn3" onclick="sendNum('*')">X</td>
-        <td class="key-btn3" onclick="equalTo()">=</td>
-        <td class="key-btn3" onclick="clearSrc()">CLR</td>
-      </tr>
-  </table>
-
-</div>
-
-  <!--- ÷ --->
+<body>
+  <header class="header1">My JS Calculator</header>
+    <div class="container">
+      <div class="calc">
+        <input class="input" type="text" id="inputext" placeholder="0">
+        <div class="division1">
+          <button class="button1" onclick="calculate(1)">1</button>
+          <button class="button1" onclick="calculate(2)">2</button>
+          <button class="button1" onclick="calculate(3)">3</button>
+          <button class="button1" onclick="calculate(4)">4</button>
+          <button class="button1" onclick="calculate(5)">5</button>
+          <button class="button1" onclick="calculate(6)">6</button>
+          <button class="button1" onclick="calculate(7)">7</button>
+          <button class="button1" onclick="calculate(8)">8</button>
+          <button class="button1" onclick="calculate(9)">9</button>
+        </div>  
+        <div class="division2">
+          <button class="button2" onclick="calculate(0)">0</button>
+          <button class="button2" onclick="calculate('.')">.</button>
+        </div>
+        <div class="division3">
+          <button class="button3" onclick="calculate('+')">+</button>
+          <button class="button3" onclick="calculate('-')">-</button>
+          <button class="button3" onclick="calculate('/')">/</button>
+          <button class="button3" onclick="calculate('*')">X</button>
+          <button class="button3" onclick="calculate('%')">%</button>
+          <button class="button3" onclick="Result()">=</button>
+          <button class="button3" onclick="clr()">Clr</button>
+      </div>
+      </div>
+    </div>
   <script src="script.js"></script>
 </body>
 </html>

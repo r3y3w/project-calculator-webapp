@@ -1,40 +1,95 @@
-
-
-
-.window{
-    width: 145px;
-    height: 30px;
-    text-align: center;
-    font-size: medium;
-    border: solid black 1px;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+    background-color: #ecf0f3;
 }
 
-.key-btn {
-    width: 42px;
+.header1 {
+    align-items: center;
+    justify-items: center;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf0f3;
+}
+
+.calc {
+    box-shadow: 6px 6px 13px #fff,
+                6px 6px 13px rgba(0,0,0,.16);
+border-radius: 28px;
+padding: 16px;
+
+}
+
+.input {
+    grid-column: span 3;
     height: 30px;
+    width: 500px;
+    box-shadow: inset -6px -6px 13px #fff, 
+                inset 6px 6px 13px rgba(0,0,0,.16);
+    background-color: #ecf0f3;
+    border-color: grey;
+    border-radius: 4px;
+    color:rgb(26,25,25);
+    text-align: 0px;
+    margin: 40 0px 30px 0px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.button1 {
+    height: 30px;
+    width: 160px;
+    box-shadow: 6px 6px 13px #fff, 
+                6px 6px 13px rgba(0,0,0,.16);
+    background-color:grey;
+    border-color: white;
+    border-radius: 2px;
     text-align: center;
-    font-size: medium;
-    border: solid black 1px;
     color: white;
-    background-color: gainsboro;
+}
+
+.button2 {
+    height: 30px;
+    width: 249px;
+    box-shadow: 6px 6px 13px #fff, 
+                6px 6px 13px rgba(0,0,0,.16);
+    background-color:grey;
+    border-color:white;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
     
 }
 
-.key-btn2 {
-    width: 67px;
+.button3 {
     height: 30px;
+    width: 78px;    
+    box-shadow: 6px 6px 13px #fff, 
+                6px 6px 13px rgba(0,0,0,.16);
+    background-color: #ecf0f3;
+    border-color: grey;
+    border-radius: 4px;
     text-align: center;
-    font-size: medium;
-    border: solid black 1px;
-    color: white;
-    background-color: gainsboro;
-   
 }
 
-.key-btn3 {
-    width: 16px;
-    height: 30px;
-    text-align: center;
-    font-size: medium;
-    border: solid black 1px;
+.division1 {
+    display: grid;
+    grid-template-columns: repeat(3,170px);
+}
+
+.division2 {
+    display: grid;
+    grid-template-columns: repeat(2,250px);
+}
+
+.division3 {
+    display: grid;
+    grid-template-columns: repeat(7,70px);
 }
