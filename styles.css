@@ -32,7 +32,13 @@
 border-radius: 28px;
 border-style: solid;
 padding: 16px;
+}
 
+.frame1 {
+    
+    border-style: solid;
+    border-radius: 25px;
+     
 }
 
 .input {
