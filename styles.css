@@ -1,27 +1,40 @@
 
-.header 
-{
-    margin: 20px;
-    background-color: rgb(238, 172, 7);
-    width: 355px;
-    margin:0 auto;
-    border-radius: 20px;
+
+
+.window{
+    width: 145px;
+    height: 30px;
     text-align: center;
-    text-justify: auto;
+    font-size: medium;
+    border: solid black 1px;
 }
 
-div {
-    background-color: rgba(0, 238, 255, 0.729);
-    margin: 50px;
-    width: 350px;
-    height: 550px;
-    margin: 0 auto;
-    border-radius: 20px;
-    padding: 10px;
+.key-btn {
+    width: 42px;
+    height: 30px;
+    text-align: center;
+    font-size: medium;
+    border: solid black 1px;
+    color: white;
+    background-color: gainsboro;
     
 }
 
-.button 
-{
+.key-btn2 {
+    width: 67px;
+    height: 30px;
+    text-align: center;
+    font-size: medium;
+    border: solid black 1px;
+    color: white;
+    background-color: gainsboro;
+   
+}
 
+.key-btn3 {
+    width: 16px;
+    height: 30px;
+    text-align: center;
+    font-size: medium;
+    border: solid black 1px;
 }
