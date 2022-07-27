@@ -1,108 +1,112 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    font-family: sans-serif;
-    background-color: white;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: sans-serif;
+  background-color: white;
 }
 
 .body {
-    box-sizing: border-box;
-    border-color: grey;
+  box-sizing: border-box;
+  border-color: grey;
 }
 .header1 {
-    height: 75px;
-    width: 500px;
-    font-family: cursive;
-    font-size: xx-large;
-    text-align: center;
+  height: 75px;
+  width: 500px;
+  font-family: cursive;
+  font-size: xx-large;
+  text-align: center;
 }
 .container {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ecf0f3;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecf0f3;
 }
 
 .calc {
-    box-shadow: 6px 6px 13px #fff,
-                6px 6px 13px rgba(0,0,0,.16);
-border-radius: 28px;
-border-style: solid;
-padding: 16px;
+  box-shadow: 6px 6px 13px #fff, 6px 6px 13px rgba(0, 0, 0, 0.462);
+  border-radius: 28px;
+  border-style: solid;
+  padding: 100px;
+
 }
 
 .frame1 {
-    
-    border-style: solid;
-    border-radius: 25px;
-     
+ 
+  
 }
 
+.allbuttons{
+  padding: 50px;
+  border-style: solid;
+  border-radius: 25px;
+}
 .input {
-    grid-column: span 3;
-    height: 30px;
-    width: 500px;
-    box-shadow: inset -6px -6px 13px #fff, 
-                inset 6px 6px 13px rgba(0,0,0,.16);
-    background-color: #ecf0f3;
-    border-color: grey;
-    border-radius: 4px;
-    text-align: 0px;
-    margin: 40 0px 30px 0px;
-    padding: 20px;
-    font-size: 20px;
+  grid-column: span 3;
+  height: 30px;
+  width: 500px;
+  box-shadow: inset -6px -6px 13px #fff, inset 6px 6px 13px rgba(0, 0, 0, 0.16);
+  background-color: #ecf0f3;
+  border-color: grey;
+  border-radius: 4px;
+  text-align: 0px;
+  margin: 40 0px 30px 0px;
+  padding: 20px;
+  font-size: 20px;
 }
 
 .button1 {
-    height: 30px;
-    width: 160px;
-    box-shadow: 6px 6px 13px #fff, 
-                6px 6px 13px rgba(0,0,0,.16);
-    background-color:grey;
-    border-color: white;
-    border-radius: 2px;
-    text-align: center;
-    color: white;
+  height: 150%;
+  width: 160px;
+  padding-bottom: 5%;
+  box-shadow: 6px 6px 13px #fff, 6px 6px 13px rgba(0, 0, 0, 0.16);
+  background-color: grey;
+  border-color: white;
+  border-radius: 2px;
+  text-align: center;
+  color: white;
 }
 
 .button2 {
-    height: 30px;
-    width: 249px;
-    box-shadow: 6px 6px 13px #fff, 
-                6px 6px 13px rgba(0,0,0,.16);
-    background-color:grey;
-    border-color:white;
-    border-radius: 2px;
-    text-align: center;
-    color: white;
-    
+  height: 150%;
+  width: 249px;
+  align-content:center;
+  padding-bottom: 5%;
+  box-shadow: 6px 6px 13px #fff, 6px 6px 13px rgba(0, 0, 0, 0.16);
+  background-color: grey;
+  border-color: white;
+  border-radius: 2px;
+  text-align: center;
+  color: white;
 }
 
 .button3 {
-    height: 30px;
-    width: 78px;    
-    box-shadow: 6px 6px 13px #fff, 
-                6px 6px 13px rgba(0,0,0,.16);
-    background-color: #ecf0f3;
-    border-color: grey;
-    border-radius: 4px;
-    text-align: center;
+  height: 150%;
+  width: 78px;
+  box-shadow: 6px 6px 13px #fff, 6px 6px 13px rgba(0, 0, 0, 0.16);
+  background-color: #ecf0f3;
+  border-color: grey;
+  border-radius: 4px;
+  text-align: center;
 }
 
 .division1 {
-    display: grid;
-    grid-template-columns: repeat(3,170px);
+  display: grid;
+  grid-template-columns: repeat(3, 160px);
+  margin: 1%;
 }
 
 .division2 {
-    display: grid;
-    grid-template-columns: repeat(2,250px);
+  display: grid;
+  grid-template-columns: repeat(2, 237px);
+  
+  /* margin: 3%  3%  1%  1% ; */
 }
 
 .division3 {
-    display: grid;
-    grid-template-columns: repeat(7,70px);
+  display: grid;
+  grid-template-columns: repeat(7, 70px);
 }
